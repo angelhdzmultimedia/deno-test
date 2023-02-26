@@ -1,0 +1,13 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "deno run src/main.ts",
+    "clean": "rimraf node_modules pnpm-lock.yaml"
+  },
+  "dependencies": {
+    "deno-bin": "^1.31.1",
+    "rimraf": "^4.1.2"
+  }
+}
